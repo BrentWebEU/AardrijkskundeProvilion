@@ -1,5 +1,4 @@
 from country_bounding_boxes import country_subunits_by_iso_code
-import pycountry
 
 Data = [
     {
