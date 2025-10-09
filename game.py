@@ -15,7 +15,7 @@ class GameGUI:
         self.root = root
         self.root.title("Geografie Spel")
         self.root.geometry("1200x800")
-        self.root.attributes("-fullscreen", True)
+        self.root.attributes("-fullscreen", False)
 
         countries_data = self.extract_data_by_type("landen")
         rivers_data = self.extract_data_by_type("rivieren")
