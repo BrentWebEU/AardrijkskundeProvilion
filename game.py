@@ -6,6 +6,8 @@ import matplotlib.pyplot as plt
 from data import Data
 from game_logic import GameLogic
 import random
+import os
+import sys
 
 
 class GameGUI:
@@ -115,8 +117,8 @@ class GameGUI:
 
         self.listbox = tk.Listbox(self.control_frame)
         self.listbox.pack(fill=tk.BOTH, expand=True)
-
-        self.image_easy = plt.imread("etopo.jpg")
+        self.image_path = self.resource_path("./etopo.jpg")
+        self.image_easy = plt.imread(self.image_path)
 
         self.figure = plt.figure(figsize=(20, 5))
         self.ax = self.figure.add_subplot(1, 1, 1, projection=ccrs.PlateCarree())
@@ -168,6 +170,12 @@ class GameGUI:
 
         self.figure.canvas.mpl_connect("button_press_event", self.on_map_click)
         self.canvas.draw()
+
+    def resource_path(self, relative_path):
+        try:
+            return os.path.join(sys._MEIPASS, relative_path)
+        except AttributeError:
+            return relative_path
 
     def set_game_mode(self, mode):
         self.game_logic.set_game_mode(mode)
