@@ -1,0 +1,4 @@
+country_bounding_boxes
+matplotlib
+cartopy
+shapely
