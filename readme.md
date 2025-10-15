@@ -10,7 +10,7 @@ Volg deze stappen om het spel te downloaden en te starten:
 
 1.  Download het spel direct via deze link: [**Aardrijkskunde V1**](https://github.com/BrentWebEU/AardrijkskundeProvilion/archive/refs/heads/main.zip).
 2.  Pak de inhoud van het zipbestand uit naar een map op je computer.
-3.  Dubbelklik op **`game.bat`** om het spel te starten (het kan even duren de eerste keer).
+3.  Dubbelklik op **`game.ps1`** om het spel te starten (het kan even duren de eerste keer).
 4.  Veel plezier met spelen!
 
 ---
