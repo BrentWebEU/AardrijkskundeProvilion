@@ -1,4 +1,4 @@
-# Aardrijkskunde Trivia
+# Aardrijkskunde
 
 Een leuke, interactieve game waarmee je jouw basiskennis over aardrijkskunde kunt testen.
 
