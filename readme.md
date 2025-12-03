@@ -6,6 +6,11 @@ Een leuke, interactieve game waarmee je jouw basiskennis over aardrijkskunde kun
 
 ## Installatie
 
+Verreisten?
+1. Python - [**Download**](https://apps.microsoft.com/detail/9pnrbtzxmb4z)
+2. Windows
+3. Motivatie
+
 Volg deze stappen om het spel te downloaden en te starten:
 
 1.  Download het spel direct via deze link: [**Aardrijkskunde V1**](https://github.com/BrentWebEU/AardrijkskundeProvilion/archive/refs/heads/main.zip).
@@ -20,7 +25,7 @@ Volg deze stappen om het spel te downloaden en te starten:
 ### Spelmodi
 1.  Links bovenaan het scherm kun je kiezen uit **5 verschillende spelmodi**.
 2.  Daarnaast kun je kiezen tussen **'Hard Mode'** en **'Normal Mode'**. In de Hard Mode is het moeilijker om de locatie precies te bepalen.
-3.  Zodra het spel begint, verschijnt links in beeld wat je moet aanduiden.
+3.  Zodra het spel begint, verschijnt links in beeld wat je moet aanduiden. 
 
 ### Punten en hints
 * **Juist:** +1 punt
